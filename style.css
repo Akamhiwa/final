@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    gap: 20px;
+background-color: rgb(32, 30, 30);
+padding: 20px 0px;
+}
+h1{
+    color: white;
+}
+img{
+    width: 80px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: grey;
+    padding: 20px 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.form-container{
+    width: 60%;
+}
+button{
+    padding: 5px 5px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    border: 0;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}

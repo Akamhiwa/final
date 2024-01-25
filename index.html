@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <img src="epu logo.png" alt="">
+        <h1>Web Design final exam a</h1>
+    </div>
+    <nav>
+        <a href="#">home</a>
+        <a href="#">about</a>
+        <a href="#">content</a>
+    </nav>
+    <center>
+        <div class="form-container">
+            <fieldset>
+                <legend>student form</legend>
+                <form >
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="fullname">fullName:</label>
+                            </td>
+                            <td colspan="2">
+                                <input id="fullname" name="fullname" type="text" placeholder="eg:Akam hiwa">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="stage">stage:</label>
+                            </td>
+                            <td>
+                                <select id="inputStage" >
+                                    <option value="first">first</option>
+                                    <option value="second">second</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="gender">gender:</label>
+                            </td>
+                            <td>
+                                <select  id="inputGender">
+                                    <option value="male">male</option>
+                                    <option value="female">female</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="subject">subjects:</label>
+                            </td>
+                            <td>
+                                <select multiple id="inputSubjects" v >
+                                    <option value="calculus">calculus</option>
+                                    <option value="oop">oop</option>
+                                    <option value="web design">web design</option>
+                                    <option value="design">design</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <button id="button"> click me</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </fieldset>
+            <fieldset>
+                <legend>student information</legend>
+                <table>
+                    <tr>
+                        <td> fullname:</td>
+                        <td>
+                            <span id="user-name">
+                                
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> stage:</td>
+                        <td>
+                            <span id="user-stage"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> gender:</td>
+                        <td>
+                            <span id="user-gender"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> subjects:</td>
+                        <td>
+                            <span id="user-subjects"></span>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </div>
+    </center>
+    <script src="app.js"></script>
+    <script>
+
+    </script>
+</body>
+</html>
